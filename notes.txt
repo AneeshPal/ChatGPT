@@ -1,0 +1,2 @@
+chat completions end point we use 
+we send message to model + user query
