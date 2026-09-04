@@ -44,7 +44,8 @@ button:hover{
 }
 
 .history li{
-    list-style-type: none;
+    /* to remove bulet points */
+    list-style-type: none;  
     cursor: pointer;
     padding: 2px 5px;
     margin-bottom: 0.3rem;
@@ -63,5 +64,5 @@ button:hover{
     margin:10px;
     font-size: 14px;
     text-align: center;
-    border-top:solid 0.25px rgba(255,255,255,0.5);
+    border-top:solid 0.25px rgba(255,255,255,0.5); 
 }
