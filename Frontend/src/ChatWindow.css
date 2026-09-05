@@ -1,6 +1,6 @@
 .chatWindow{
     background-color: #212121;
-    height: 100px;
+    height: 100vh;
     width:100%;
     display: flex;
     flex-direction:column;
@@ -17,6 +17,7 @@
     align-items: center;
 }
 
+/* some breathing space from left nd right end of icons on navbar */
 .navbar span{
     margin:1rem 2rem;
 }
@@ -37,7 +38,6 @@
 }
 
 /* chatInput */
-
 .chatInput{
     width:100%;
     display: flex;
@@ -59,7 +59,7 @@ input{
     width: 100%;
     border:none;
     background-color: rgba(255,255,255,0.05);
-    padding-right: 20px;
+    padding: 20px;
     font-size:0.8rem;
     box-shadow: rgba(0,0,0,0.05) 0 54px 55px,
                 rgba(0,0,0,0.05) 0 -12px 30px,
@@ -68,6 +68,7 @@ input{
                 rgba(0,0,0,0.05) 0 -3px 5px;
 }
 
+/* to remove the higlighting of inout box */
 input:focus{
     outline: none;
 }
@@ -85,8 +86,12 @@ input:focus{
     justify-content: center;
 
 }
+
+#submit{
+    color:#fff;
+}
 .info{
     font-size:0.7rem;
-    padding:05rem;
+    padding:0.5rem;
     color:#b4b4b4;
 }
