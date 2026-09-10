@@ -1,2 +1,17 @@
 chat completions end point we use 
 we send message to model + user query
+
+
+backend-
+1.models - we only need to store the chat history followed by their content 
+and their time to show most recent chat on top in chat history.
+1 thread means-1 chat conversation with the model.
+2.utils
+3.routes
+
+
+
+frontend 
+UI Components:-
+sidebar
+chatWindow(navbar, chat , chatInput)
